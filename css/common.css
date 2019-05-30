@@ -1,0 +1,259 @@
+/*放头部和底部通用样式*/
+/*字体图标*/
+/*@定义的意思*/
+@font-face {
+  	font-family: 'iconfont';
+  	src: url('../fonts/iconfont.eot');
+  	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  	url('../fonts/iconfont.woff') format('woff'),
+  	url('../fonts/iconfont.ttf') format('truetype'),
+  	url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+ 	 font-family:"iconfont" !important;
+ 	/* 可以只用定义所需字体就好
+ 	 font-size:16px;
+ 	 font-style:normal;
+ 	 -webkit-font-smoothing: antialiased;
+ 	 -webkit-text-stroke-width: 0.2px;
+ 	 -moz-osx-font-smoothing: grayscale;*/
+}
+/*快捷导航*/
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	font-family: 'simsun';
+	background-color: #f1f1f1;
+}
+.shortcut .fl a {
+	padding-left: 14px;
+}
+/*初始化中已定义了此颜色，故不用此段代码
+.change {
+	color: #c81623;
+}*/
+.shortcut .fr li {
+	float: left;
+}
+.shortcut .fr a:hover {
+	color: #c81623;	
+}
+.line {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 14px 0 16px;
+}
+.shortcut i {
+	vertical-align: middle;
+}
+/*nav-top区域*/
+.nav-top {
+	height: 80px;
+	padding-top: 26px;
+}
+/*logo区域*/
+.logo a {
+	display: block;
+	width: 171px;
+	height: 61px;
+	background: url(../img/logo.png) no-repeat;
+	/*将品优购这几个字不在图片上显示的几种方法*/
+	font-size: 0;
+/*	color: transparent;
+	text-indent: -5000px;*/
+}
+/*此处使用了伪类选择器*/
+.search {
+	margin: 0 111px 0 173px;
+}
+.search input:first-child {
+	width: 444px;
+	height: 32px;
+	padding-left: 10px;
+	border: 2px solid #b21a1a;
+	border-right: 0;
+	/*使用该代码可以不用使用浮动就能使行内块元素顶对齐*/
+	vertical-align: top;
+}
+.search input:last-child {
+	width: 82px;
+	height: 36px;
+	background-color: #b11a1a;
+	font-size: 16px;
+	color: #fff;
+	vertical-align: top;
+}
+.shopcar {
+	position: relative;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f6f6f6;
+}
+.shopcar i,
+.shopcar a,
+.shopcar em {
+	vertical-align: middle;
+}
+.shopcar span {
+	position: absolute;
+	right: 18px;
+	top: -8px;
+	/*此处不设置宽度是防止内容过多显示不完全
+	width: 16px;*/
+	height: 16px;
+	line-height: 16px;
+	padding: 0 4px;
+	background-color: #e50211;
+	color: #fff;
+	border-radius: 8px 8px 8px 0;
+}
+.hotwords {
+	margin:6px 0 0 185px;
+}
+.hotwords li {
+	float: left;
+	margin-right: 25px;
+}
+/*主导航部分*/
+.nav {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 2px solid #b01919;
+}
+.dropdown {
+	width: 209px;
+	height: 45px;
+}
+.dropdown h3 {
+	/*width: 209px;*/
+	background-color: #b11a1a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.dropdown ul {
+	/*控制鼠标放相应位置时的显示隐藏状态*/
+	display: none;
+	background-color: #c81822;
+}
+.dropdown:hover ul {
+	display: block;
+}
+.dropdown li {
+	height: 31px;
+	line-height: 31px;
+	padding: 0 10px;
+}
+.dropdown a {
+	color: #fff;
+	font-size: 14px;
+}
+.dropdown span {
+	float: right;
+	color: #fff;
+	font-size: 20px;
+}
+.dropdown li:hover {
+	background-color: #f7f7f7;
+}
+.dropdown li:hover a,
+.dropdown li:hover span {
+	color: #c81623;
+}
+.nav-group li {
+	float: left;
+	margin:0 10px 0 42px;
+	/*color: #333;*/
+	font-size: 16px;
+}
+/*底部样式*/
+.footer {
+	height: 387px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.slogan {
+	height: 80px;
+	border-bottom: 1px solid #ececec;
+}
+.slogan li {
+	float: left;
+	width: 208px;
+	padding-left: 32px;
+}
+.slogan li .fl:first-child {
+	width: 50px;
+	height: 50px;
+	padding-right: 7px;
+	background: url(../img/icons.png) no-repeat -253px -3px;
+}
+.slogan li .fl:last-child {
+	padding-top: 8px;
+}
+.slogan ul li:nth-child(2) .fl:first-child {
+	background-position: -255px -53px;
+}
+.slogan ul li:nth-child(3) .fi:first-child {
+	background-position: -257px -106px;
+}
+.slogan ul li:nth-child(4) .fl:first-child {
+	background-position: -258px -157px;
+}
+.slogan ul li:last-child .fl:first-child {
+	background-position: -258px -209px;
+}
+.slogan h5 {
+	height: 24px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 700;
+}
+.help {
+	height: 167px;
+	padding: 20px 80px 0 46px;
+	border-bottom: 1px solid #ededed;
+}
+.help dl {
+	float: left;
+	width: 196px;
+}
+.help dt,
+.help h5 {
+	height: 30px;
+	font-size: 16px;
+	color: #333;
+}
+.help dd {
+	height: 20px;
+}
+.help p {
+	margin-top: 8px;
+	color: #333;
+}
+.copyright p:first-child {
+	margin: 20px 0 13px;
+}
+.copyright span {
+	margin: 0 16px 0 14px;
+}
+.copyright p:nth-child(2) {
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

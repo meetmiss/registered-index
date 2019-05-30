@@ -1,0 +1,271 @@
+/*.main {
+	height: 1500px;
+}*/
+.focus {
+	height: 455px;
+	margin-top: 8px;
+}
+.focus-pic {
+	position: relative;
+}
+.arrow-l, 
+.arrow-r {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .3);
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	width: 200px;
+	height: 30px;
+	/*line-height: 30px;*/
+	/*background-color: #333;*/
+}
+.circle i {
+	/*记得转模式*/
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	margin: 0 4px;
+}
+.circle i:hover {
+	background-color: #fff;
+	/*此处使用阴影是因为阴影不占据位置，不会影响后边的i*/
+	box-shadow: 0 0 0 4px rgba(255, 255, 255, .5);
+}
+.newflash {
+	width: 248px;
+	height: 455px;
+	margin-left: 9px;
+	/*border: 1px solid #e5e5e5;*/
+}
+.news {
+	width: 248px;
+	height: 163px;
+	border: 1px solid #e5e5e5;
+	border-bottom: 0;
+}
+.news h3 {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+	border-bottom: 1px dashed #eee;
+	color: #333;
+	font-size: 14px;
+}
+/*可以直接调用之前设置的基础样式
+.news h3 a {
+	float: right;
+	color: #666;
+	font-size: 12px;
+}*/
+/*之前有设置a的样式，故可以不用再次设置
+.news h3 a:hover {
+	color: #c81623;
+}*/
+.news ul {
+	padding-left: 15px;
+	padding-top: 12px;
+}
+.news li {
+	height: 24px;
+}
+.news li strong {
+	color: #666;
+	margin-right: 5px;
+}
+.lifeservice {
+	overflow: hidden;
+	width: 248px;
+	height: 208px;
+	border: 1px solid #e8e8e8;
+}
+.lifeservice ul {
+	width: 280px;
+	height: 220px;
+}
+.lifeservice li {
+	float: left;
+	position: relative;
+	width: 62px;
+	height: 70px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+}
+.lifeservice span {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	/*line-height: 26px;*/
+	margin: 8px 0 8px;
+	background: url(../img/icons.png) no-repeat -16px -16px;
+}
+.lifeservice li:nth-child(2) span {
+	background-position: -79px -16px;
+}
+.lifeservice li:nth-child(3) span {
+	background-position: -141px -16px;
+}
+.lifeservice li:nth-child(4) span {
+	background-position: -205px -16px;
+}
+.lifeservice li:nth-child(5) span {
+	background-position: -16px -86px;
+}
+.lifeservice li:nth-child(6) span {
+	background-position: -79px -86px;
+}
+.lifeservice li:nth-child(7) span {
+	background-position: -141px -86px;
+}
+.lifeservice li:nth-child(8) span {
+	background-position: -205px -86px;
+}
+.lifeservice li:nth-child(9) span {
+	background-position: -15px -158px;
+}
+.lifeservice li:nth-child(10) span {
+	background-position: -78px -158px;
+}
+.lifeservice li:nth-child(11) span {
+	background-position: -141px -158px;
+}
+.lifeservice li:nth-child(12) span {
+	background-position: -206px -158px;
+}
+.reduce {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 12px;
+	height: 16px;
+	/*将字偏上显示*/
+	line-height: 12px;
+	background-color: #579e55;
+	color: #fff;
+}
+/*此处需重新定义em标签完成三角区域的空白*/
+.reduce em {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	border-style: solid;
+	border-width: 3px 6px;
+	border-color: transparent transparent #fff transparent;
+}
+.show {
+	margin-top: 6px;
+}
+/*今日推荐部分*/
+.recommend {
+	height: 163px;
+	margin-top: 11px;
+}
+.recommend .fl {
+	width: 206px;
+	height: 163px;
+	background-color: #5c5351;
+	text-align: center;
+}
+.recommend .fl img {
+	padding: 30px 0 10px;
+}
+.recommend .fl h3 {
+	font-size: 18px;
+	color: #fff;
+}
+/*li里面总体宽度大于剩余宽度，使用溢出隐藏*/
+.recommend .fr {
+	overflow: hidden;
+	width: 994px;
+	padding: 10px 0;
+	background-color: #ebebeb;
+}
+.recommend ul {
+	width: 996px;
+}
+.recommend li {
+	float: left;
+	border-right: 1px solid #ddd;
+}
+/*楼层部分*/
+.floor-hd {
+	height: 28px;
+	padding-top: 28px;
+	border-bottom: 2px solid #c51721;
+}
+.floor-hd li {
+	float: left;
+}
+.floor-hd .line {
+	margin-top: 3px;
+} 
+.floor-bd {
+	height: 360px;
+}
+.row-210 {
+	width: 210px;
+	height: 360px;
+	background-color: #f9f9f9;
+	overflow: hidden;
+}
+.row-210 li {
+	float: left;
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ededed;
+	margin-left: 12px;
+	text-align: center;
+}
+.row-210 img {
+	margin-top: 26px;
+}
+.bbr {
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+.tab-content img {
+	transition: 1s;
+}
+.tab-content img:hover {
+	/*注意设置的左右方向*/
+	margin-left: 10px;
+}
+.row-329 {
+	width: 329px;
+	overflow: hidden;
+}
+.row-219 {
+	width: 219px;
+	overflow: hidden;
+}
+.row-220 {
+	width: 220px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

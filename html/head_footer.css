@@ -1,0 +1,227 @@
+/*头部*/
+/*字体设置*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+ /* font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+.header-hd {
+	height: 31px;
+	line-height: 31px;
+	font-family: 'simsun';
+	background-color: #f1f1f1;
+}
+.header-hd .fl a {
+	padding-left: 14px;
+}
+.header-hd li {
+	float: left;
+}
+.line {
+	width: 1px;
+	height: 12px;
+	background-color: #676767;
+	margin: 9px 14px 0 16px;
+}
+.header-hd i {
+	font-size: 20px;
+	vertical-align: middle;
+}
+.header-bd {
+	height: 80px;
+	padding-top: 20px;
+}
+.logo {
+	height: 61px;
+	width: 171px;
+	background: url(../img/logo.png) no-repeat;
+	/*将文字移出屏幕的3种方法*/
+	font-size: 0;
+	/*text-indent: -5000px;
+	color: transparent;*/
+}
+.search {
+	margin: 0 111px 0 173px;
+}
+.search input[type="text"] {
+	width: 444px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 10px;
+	border: 2px solid #b21a1a;
+	border-right: 0;
+	vertical-align: middle;
+}
+.search input[type="submit"] {
+	width: 82px;
+	height: 36px;
+	background-color: #b11a1a;
+	color: #fff;
+	vertical-align: middle;
+}
+.shopcar {
+	position: relative;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	background-color: #e0e0e0;
+	border: 1px solid #f7f7f7;
+}
+.shopcar i, 
+.shopcar a {
+	vertical-align: middle;
+}
+.shopcar span {
+	position: absolute;
+	right: 20px;
+	top: -8px;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 5px;
+	background-color: #e50211;
+	color: #fff;
+	text-align: center;
+	border-radius: 8px 8px 8px 0;
+}
+.hotwords {
+	margin: 8px 0 0 186px;
+}
+.hotwords li {
+	float: left;
+	margin-right: 25px;
+}
+.nav {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 2px solid #b01919;
+}
+.dropdown {
+	width: 209px;
+	height: 45px;
+}
+.dropdown h3 {
+	/*line-height: 45px;*/
+	background-color: #b11a1a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.dropdown ul {
+	/*display: none;*/
+	background-color: #c81822;
+}
+.dropdown:hover ul {
+	/*display: block;*/
+}
+.dropdown li {
+	height: 31px;
+	line-height: 31px;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.dropdown a {
+	color: #fff;
+}
+.dropdown li:hover {
+	background-color: #f7f7f7;
+}
+.dropdown li:hover a,
+.dropdown li:hover span {
+	color: #c81623;
+}
+.dropdown span {
+	float: right;
+	color: #fff;
+	font-size: 20px;
+}
+.nav-group li {
+	float: left;
+	margin: 0 12px 0 40px;
+	font-size: 16px;
+}
+.nav-group a {
+	color: #333;
+}
+/*网页底部*/
+.footer {
+	height: 417px;
+	background-color: #f5f5f5;
+}
+.slogan {
+	height: 80px;
+	padding-top: 30px;
+	border-bottom: 1px solid #ececec;
+}
+.slogan li {
+	float: left;
+	width: 208px;
+	padding-left: 32px;
+}
+.slogan li .fl:first-child {
+	width: 50px;
+	height: 50px;
+	margin-right: 7px;
+	background: url(../img/icons.png) no-repeat -252px -3px;
+}
+.slogan h4 {
+	height: 24px;
+	margin-top: 8px;
+	font-size: 14px;
+	color: #333;
+}
+.help {
+	height: 167px;
+	/*padding-top: 20px;
+	padding-left: 46px;*/
+	padding: 20px 80px 0 46px;
+	border-bottom: 1px solid #ececec;
+}
+.help dl {
+	float: left;
+	width: 196px;
+}
+.help dt {
+	height: 30px;
+	color: #333;
+}
+.help dd {
+	height: 20px;
+}
+.help h4 {
+	height: 30px;
+	color: #333;
+	font-size: 16px;
+}
+.help p {
+	margin-top: 8px;
+	color: #333;
+}
+.copyright ul {
+	display: block;
+	height: 28px;
+	width: 980px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.copyright li {
+	float: left;
+}
+.copyright .line {
+	margin-top: 3px;
+}
+.copyright p:nth-child(2) {
+	height: 20px;
+}
+
+
+

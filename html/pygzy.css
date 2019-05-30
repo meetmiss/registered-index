@@ -1,0 +1,212 @@
+.main {
+	height: 1500px;
+}
+/*广告栏部分*/
+.focus {
+	height: 455px;
+	margin-top: 8px;
+}
+.focus-pic {
+	position: relative;
+	width: 721px;
+	height: 455px;
+}
+.arrow-l, 
+.arrow-r {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0, 0, 0, .3);
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	/*background: pink;*/
+}
+.circle i {
+	/*记得转模式*/
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0 4px;
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+}
+.circle i:hover {
+	background-color: #fff;
+	box-shadow: 0 0 0 4px rgba(255, 255, 255, .5);
+}
+.newflash {
+	width: 250px;
+	margin-left: 9px;
+}
+.new {
+	width: 248px;
+	height: 163px;
+	border: 1px solid #e5e5e5;
+	border-bottom: 0;
+}
+.new h3 {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+	border-bottom: 1px dotted #e9e9e9;
+	font-size: 14px;
+	color: #333;
+}
+.new ul {
+	padding: 10px 15px 0;
+}
+.new li {
+	height: 24px;
+}
+.new li strong {
+	margin-right: 5px;
+	color: #666;
+}
+.service {
+	overflow: hidden;
+	width: 248px;
+	height: 208px;
+	border: 1px solid #e8e8e8;
+}
+.service ul {
+	width: 260px;
+	height: 210px;	
+}
+.service li {
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	/*margin: -1px 0 0 -1px;
+	border: 1px solid #e8e8e8;*/
+	/*是否可以直接设置右边框和下边框，然后不用位移？*/
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.service span {
+	/*此处定义为行内块是因为大模块定义了居中属性，转换为块元素时不居中，
+	行内块可实现居中*/
+	display: inline-block;
+	/*定位之后飘起来了，不占据位置*/
+	/*position: absolute;*/
+	width: 26px;
+	height: 26px;
+	margin: 12px 0 7px;
+	background: url(../img/icons.png) no-repeat -16px -15px;
+}
+.show {
+	margin-top: 5px;
+}
+/*今日推荐部分*/
+.recommend {
+	height: 163px;
+	margin-top: 11px;
+}
+.recommend .fl {
+	width: 206px;
+	height: 163px;
+	background-color: #5c5351;
+}
+.recommend .fl img {
+	margin: 31px 0 10px;
+}
+.recommend .fl h3 {
+	color: #fff;
+}
+.recommend .fr {
+	overflow: hidden;
+	width: 994px;
+	padding: 10px 0;
+	background-color: #ebebeb;
+}
+.recommend .fr ul {
+	width: 1000px;
+}
+.recommend .fr li {
+	float: left;
+	border-right: 1px solid #ddd;
+}
+/*家用电器部分*/
+.floor-hd {
+	height: 28px;
+	padding-top: 29px;
+	padding-right: 10px;
+	border-bottom: 1px solid #c51721;
+}
+.floor-hd li {
+	float: left;
+}
+.floor-hd .line {
+	margin-top: 3px;
+}
+.floor-bd {
+	height: 360px;
+}
+.tab-content .fl:first-child {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.tab-content ul {
+	height: 99px;
+	margin-bottom: 26px;
+}
+.tab-content li {
+	float: left;
+	width: 88px;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 12px;
+	border-bottom: 1px solid #eee;
+}
+.bbr {
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+/*错误
+.row-329 {
+	transition: 1s;
+}
+.row-329:hover a {
+	width: 329px;
+	margin-left: 20px;
+	overflow: hidden;
+}*/
+.tab-content img {
+	transition: 1s;
+}
+.tab-content img:hover {
+	margin-left: 10px;
+}
+.row-209 {
+	width: 209px;
+	overflow: hidden;
+}
+.row-329 {
+	width: 329px;
+	overflow: hidden;
+}
+.row-219 {
+	width: 219px;
+	overflow: hidden;
+}
+.row-220 {
+	width: 220px;
+	overflow: hidden;
+}
+
