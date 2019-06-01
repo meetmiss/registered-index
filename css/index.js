@@ -1,4 +1,4 @@
-var arr = ['upload/banner.jpg', 'upload/banner.png', 'upload/banner5.jpg', 'upload/banner3.jpg', 'upload/banner2.jpg', 'upload/banner4.jpg']
+var arr = ['upload/banner.jpg','upload/banner8.jpg', 'upload/banner5.jpg', 'upload/banner1.jpg', 'upload/banner.png','upload/banner3.jpg',  'upload/banner6.jpg','upload/banner2.jpg', 'upload/banner4.jpg', 'upload/banner7.jpg']
 var focus = document.querySelector('.focus');
 var banner = document.querySelector('.focus-pic  img');
 var arrow_l = document.querySelector('.focus-pic .arrow-l');
