@@ -8,6 +8,10 @@
 .focus-pic {
 	position: relative;
 }
+.focus-pic img {
+	width: 721px;
+	height: 455px;
+}
 .arrow-l, 
 .arrow-r {
 	position: absolute;
